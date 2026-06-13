@@ -3,6 +3,8 @@
     color: black;
     text-decoration: none;
     font-family: sans-serif;
+    padding: 0;
+    list-style: none;
 
 }
 
@@ -91,10 +93,67 @@ main {
                     font-size: 16px;
                     padding: 16px 13px;
                     line-height: 28px;
+                    outline-color: #c92071;
                 }
 
             }
         }
+        p{
+            a{
+              font-size: 14px;
+            line-height:  22px; ;
+            text-align: underline;
+            letter-spacing: .25px;
+            color:#474747;
+
+
+            }
+        }
+        button{
+            border-radius: 8px;
+           height: 48px;
+          background-color: #c92071;
+          border: none;
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 700;
+          letter-spacing: .75px;
+          
+        }
+        .others{
+            margin:auto;
+            
+            p{
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: .25px;
+                color:#474747;
+            }
+
+            ul{
+             display: flex;
+             gap: 24px;
+             justify-content: center;
+             margin-top: 20px;
+             align-items: center;
+
+            li{
+               
+                a{
+                  display:block;
+                  height:fit-content;
+
+                  
+                  }
+             }
+
+
+             }
+            }
+        }
     }
 
-}
+    footer{
+        
+    }
+
