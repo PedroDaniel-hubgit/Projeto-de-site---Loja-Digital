@@ -1,36 +1,3 @@
-* {
-    margin: 0;
-    color: black;
-    text-decoration: none;
-    font-family: sans-serif;
-    padding: 0;
-    list-style: none;
-
-}
-
-header {
-    height: 64px;
-    display: flex;
-    justify-content: center;
-
-
-    a {
-        width: 174px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 4.36px;
-
-        span {
-            font-size: 19.85px;
-            font-weight: 600;
-            color: deeppink
-        }
-    }
-
-
-}
-
 main {
     background: linear-gradient(#b5b6f2, #EFEFFF) padding 30px 30px 300px;
 
@@ -98,62 +65,61 @@ main {
 
             }
         }
-        p{
-            a{
-              font-size: 14px;
-            line-height:  22px; ;
-            text-align: underline;
-            letter-spacing: .25px;
-            color:#474747;
+
+        p {
+            a {
+                font-size: 14px;
+                line-height: 22px;
+                ;
+                text-align: underline;
+                letter-spacing: .25px;
+                color: #474747;
 
 
             }
         }
-        button{
+
+        button {
             border-radius: 8px;
-           height: 48px;
-          background-color: #c92071;
-          border: none;
-          color: #ffffff;
-          font-size: 16px;
-          font-weight: 700;
-          letter-spacing: .75px;
-          
+            height: 48px;
+            background-color: #c92071;
+            border: none;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: .75px;
+
         }
-        .others{
-            margin:auto;
-            
-            p{
+
+        .others {
+            margin: auto;
+
+            p {
                 font-size: 14px;
                 line-height: 22px;
                 letter-spacing: .25px;
-                color:#474747;
+                color: #474747;
             }
 
-            ul{
-             display: flex;
-             gap: 24px;
-             justify-content: center;
-             margin-top: 20px;
-             align-items: center;
+            ul {
+                display: flex;
+                gap: 24px;
+                justify-content: center;
+                margin-top: 20px;
+                align-items: center;
 
-            li{
-               
-                a{
-                  display:block;
-                  height:fit-content;
+                li {
 
-                  
-                  }
-             }
+                    a {
+                        display: block;
+                        height: fit-content;
 
 
-             }
+                    }
+                }
+
+
             }
         }
     }
-
-    footer{
-        
-    }
-
+}

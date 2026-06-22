@@ -1,0 +1,292 @@
+    * {
+        margin: 0;
+        color: black;
+        text-decoration: none;
+        font-family: sans-serif;
+        padding: 0;
+        list-style: none;
+
+    }
+
+    header {
+        height: 64px;
+        display: flex;
+        justify-content: center;
+
+
+        a {
+            width: 174px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4.36px;
+
+            span {
+                font-size: 19.85px;
+                font-weight: 600;
+                color: deeppink
+            }
+        }
+
+
+    }
+
+    main {
+        background: linear-gradient(#b5b6f2, #EFEFFF) padding 30px 30px 300px;
+
+        form {
+            background-color: (#fff);
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            border-radius: 4px;
+
+            .title {
+                h1 {
+                    font-size: 22px;
+                    line-height: 34px;
+                    letter-spacing: 2px;
+                    text-align: center;
+                    color: #1f1f1f;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: .25px;
+                    text-align: center;
+                    color: #474747;
+
+                    a {
+                        text-decoration: underline;
+                        color: #474747;
+
+                    }
+
+                }
+            }
+
+            .inputs {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    label {
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: .75px;
+                        color: #474747;
+
+                    }
+
+                    input {
+                        border: none;
+                        border-radius: 8px;
+                        background-color: #4747470a;
+                        font-size: 16px;
+                        padding: 16px 13px;
+                        line-height: 28px;
+                        outline-color: #c92071;
+                    }
+
+                }
+            }
+
+            p {
+                a {
+                    font-size: 14px;
+                    line-height: 22px;
+                    ;
+                    text-align: underline;
+                    letter-spacing: .25px;
+                    color: #474747;
+
+
+                }
+            }
+
+            button {
+                border-radius: 8px;
+                height: 48px;
+                background-color: #c92071;
+                border: none;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: .75px;
+
+            }
+
+            .others {
+                margin: auto;
+
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                    letter-spacing: .25px;
+                    color: #474747;
+                }
+
+                ul {
+                    display: flex;
+                    gap: 24px;
+                    justify-content: center;
+                    margin-top: 20px;
+                    align-items: center;
+
+                    li {
+
+                        a {
+                            display: block;
+                            height: fit-content;
+
+
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: #1f1f1f;
+        display: flex;
+        justify-content: center;
+        padding: 50px 20px 46px;
+
+        * {
+            color: #fff
+        }
+
+        .social {
+            margin-bottom: 40px;
+
+
+            .logo {
+                display: flex;
+                gap: 5.5px;
+                margin-bottom: 20px;
+
+                img {
+                    width: 22px;
+
+                }
+
+                .span {
+                    font-size: 24.5px;
+                    font-weight: 600px;
+
+                }
+
+            }
+
+        }
+
+        p {
+            line-height: 22px;
+            font-size: 14px;
+            letter-spacing: .25px;
+            width: 300px;
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+
+        .imagens {
+            align-items: center;
+            display: flex;
+            border-width: 20px;
+            gap: 25px;
+            height: 22px;
+
+
+        }
+
+        .informação {
+            display: flex;
+            gap: 32px;
+            margin-bottom: 40px;
+
+            div {
+                font-size: 18px;
+                font-weight: 600px;
+                margin-bottom: 10px;
+
+
+
+                ul {
+                    a {
+                        line-height: 31px;
+                    }
+                }
+
+            }
+
+
+
+        }
+
+        .contato {
+            margin-bottom: 40px;
+            line-height: 20px;
+            display: flex;
+
+            h2 {
+                font-size: 18px;
+                font-weight: 600px;
+                margin-bottom: 10px;
+            }
+
+            .adress {
+                font-style: normal;
+                flex-direction: column;
+                display: flex;
+
+                .a {
+                    line-height: 31;
+                    display: inline-block;
+                    width: 300px;
+
+
+                }
+
+
+            }
+
+
+
+
+        }
+
+
+    }
+
+    copyright {
+        display: flex;
+        justify-content: center;
+        /* Centraliza o conteúdo horizontalmente */
+        width: 100%;
+        /* Garante que o container use toda a largura da tela */
+        padding: 20px 0;
+        /* Dá um respiro para não ficar colado nas bordas */
+        /* Removi o 'margin-right: 10px' que estava tirando o texto do centro */
+
+        .copy {
+            text-align: center;
+            /* Centraliza a linha <hr> e o texto internamente */
+            width: 100%;
+
+            small {
+                text-decoration: underline;
+                /* Adiciona o sublinhado ao texto */
+            }
+        }
+    }

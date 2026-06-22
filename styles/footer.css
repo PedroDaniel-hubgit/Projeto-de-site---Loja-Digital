@@ -1,0 +1,121 @@
+footer {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: - center;
+    padding: 50px 20px 46px;
+
+    * {
+        color: #fff
+    }
+
+    .social {
+        margin-bottom: 40px;
+
+
+        .logo {
+            display: flex;
+            gap: 5.5px;
+            margin-bottom: 20px;
+
+            img {
+                width: 22px;
+
+            }
+
+            .span {
+                font-size: 24.5px;
+                font-weight: 600px;
+
+            }
+
+        }
+
+    }
+
+    p {
+        line-height: 22px;
+        font-size: 14px;
+        letter-spacing: .25px;
+        width: 300px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .imagens {
+        align-items: center;
+        display: flex;
+        border-width: 20px;
+        gap: 25px;
+        height: 22px;
+
+
+    }
+
+    .informação {
+        display: flex;
+        gap: 32px;
+        margin-bottom: 40px;
+
+        div {
+            font-size: 18px;
+            font-weight: 600px;
+            margin-bottom: 10px;
+
+
+
+            ul {
+                a {
+                    line-height: 31px;
+                }
+            }
+
+        }
+
+
+
+    }
+
+    .contato {
+        margin-bottom: 40px;
+        line-height: 20px;
+
+        h2 {
+            font-size: 18px;
+            font-weight: 600px;
+            margin-bottom: 10px;
+        }
+
+        .adress {
+            font-style: normal;
+            flex-direction: column;
+            display: flex;
+
+            .a {
+                line-height: 31;
+                display: inline-block;
+                width: 300px;
+
+
+            }
+
+
+        }
+
+
+
+
+    }
+
+    .hr {
+
+        border-color: #ffffff4d;
+    }
+
+    small {
+        display: block;
+        text-align: center;
+        line-height: 24px;
+
+    }
+
+}
